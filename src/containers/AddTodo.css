@@ -1,0 +1,22 @@
+.AddTodo form {
+  display: flex;
+}
+
+.AddTodo .TodoText {
+  flex-grow: 2;
+}
+
+.AddTodo .TodoButton {
+  flex-grow: 1;
+}
+
+
+.AddTodo .TodoButton form button {
+    background: #1279c6 !important;
+}
+
+
+.ui.basic.button:hover,
+.ui.basic.buttons .button:hover {
+    background: transparent !important;
+}
